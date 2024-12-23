@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+.nav-links a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.search-bar {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+.course-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+.course-card:hover {
+    transform: translateY(-5px);
+}
+.course-card img {
+    max-width: 100%;
+}
+.course-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.section--{
+    font-family: SuisseWorks, Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 10px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+.footer a {
+    color: #ddd;
+    text-decoration: none;
+}
+.footer a:hover {
+    color: #fff;
+}

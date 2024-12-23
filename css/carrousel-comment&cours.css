@@ -1,0 +1,81 @@
+.horizontal-carousel, .horizontal-carousel1 {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 15px;
+    padding: 15px;
+}
+
+.horizontal-carousel::-webkit-scrollbar, .horizontal-carousel1::-webkit-scrollbar {
+    display: none; /* Masquer la barre de défilement */
+}
+
+.carousel-itema {
+    flex: 0 0 auto;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.carousel-container {
+    position: relative;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carousel-btn.left {
+    left: 10px;
+}
+
+.carousel-btn.right {
+    right: 10px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .author-photo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  
+  .author-details {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .author-name {
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .author-role {
+    margin: 0;
+  }

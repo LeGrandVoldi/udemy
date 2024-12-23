@@ -1,0 +1,84 @@
+.search-box {
+    border-radius: 50px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    flex-grow: 1;
+    padding-left: 8px;
+}
+
+.search-box .search-icon {
+    font-size: 16px;
+    color: #6c757d;
+} 
+
+.carousel-main--img{
+    width: 100%;
+    height: 400px;
+}
+.bloc--{
+    background-color: white ;
+    width: 400px ;
+    height: auto ;
+    position: absolute ;
+    top: 60px ;
+    left: 60px ;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: SuisseWorks, Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 10px;
+}
+.fleche--gauche{
+    background-color: black;
+    position: absolute; 
+    left: 10px;
+    border-radius: 500px;
+}
+.fleche--droite{
+    background-color: black;
+    position: absolute; 
+    right: 10px;
+    border-radius: 500px;  
+}
+@media (max-width:950px) {
+    .carousel-main--img{
+        width: 100%;
+        height: 350px;
+    }
+}
+@media (max-width:800px) {
+    .main{
+        display: grid;
+        grid-template-areas: "main--1"
+                             "main--2";
+    }
+    .main--1{
+        grid-area: main--1;
+    }
+    .main--2{
+        grid-area: main--2;
+    }
+    .bloc--{
+        
+        position: unset;
+        width: 100% ;  
+        box-shadow: none;    
+    }
+    .fleche--gauche, .fleche--droite{
+        top: 20vh;     
+    }  
+}
+@media (max-width:400px) {
+    .carousel-main--img{
+        width: 100%;
+        height: 280px;
+    }
+}

@@ -1,0 +1,129 @@
+
+  .footer {
+    background-color: #111;
+    color: #fff;
+  }
+  
+  .footer-top {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-top p {
+    margin: 0 0 10px;
+    font-size: 16px;
+  }
+  
+  .footer-top a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .logos img {
+    height: 30px;
+  }
+  
+  .footer-middle {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #1c1d1f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    
+  }
+  
+  .footer-section {
+    flex: 1 1 200px;
+  }
+  
+  .footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .footer-bottom div {
+    flex: 1 1 200px;
+  }
+  
+  .footer-end {
+    border-top: solid 1px #85929e; 
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  
+  .footer-end a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  .footer-end p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-end a:hover {
+    color: #fff;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .footer-middle, .footer-bottom {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section, .footer-bottom div {
+      flex: 1 1 100%;
+      text-align: center;
+    }
+  }
+  
